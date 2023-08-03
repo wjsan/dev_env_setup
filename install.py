@@ -4,7 +4,7 @@ import subprocess
 def install_tool(tool):
     print(f"Installing {tool['name']}...")
     try:
-        # subprocess.run(tool['cmd'], shell=True, check=True)
+        subprocess.run(tool['cmd'], shell=True, check=True)
         print(f"{tool['name']} installed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"Failed to install {tool['name']}. Error: {e}")
