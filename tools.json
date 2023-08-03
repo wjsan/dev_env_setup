@@ -2,11 +2,12 @@
     "tools": [
         {
             "name": "Visual Studio Code",
-            "cmd": "choco install vscode"
+            "cmd": "choco install vscode -y",
+            "refreshEnv": true
         },
         {
             "name": "vscode Binary Viewer",
-            "cmd": "code --install-extension qiaojie.binary-viewer"
+            "cmd": "code --install-extension qiaojie.binary-viewer -y"
         }
     ]
 }

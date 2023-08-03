@@ -6,6 +6,8 @@ def install_tool(tool):
     try:
         subprocess.run(tool['cmd'], shell=True, check=True)
         print(f"{tool['name']} installed successfully.")
+        if tool.get("refreshEnv"):
+            subprocess.run("refreshenv", shell=True, check=True)
     except subprocess.CalledProcessError as e:
         print(f"Failed to install {tool['name']}. Error: {e}")
 
