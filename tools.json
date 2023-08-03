@@ -3,7 +3,8 @@
         {
             "name": "Visual Studio Code",
             "cmd": "choco install vscode -y",
-            "refreshEnv": true
+            "refreshEnv": true,
+            "sleep": 5
         },
         {
             "name": "vscode Binary Viewer",

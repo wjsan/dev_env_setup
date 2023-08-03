@@ -1,11 +1,14 @@
 import json
 import subprocess
+import time
 
 def install_tool(tool):
     print(f"Installing {tool['name']}...")
     try:
         subprocess.run(tool['cmd'], shell=True, check=True)
         print(f"{tool['name']} installed successfully.")
+        if tool.get("sleep"):
+            time.sleep(tool.get("sleep"))
         if tool.get("refreshEnv"):
             subprocess.run("refreshenv", shell=True, check=True)
     except subprocess.CalledProcessError as e:
