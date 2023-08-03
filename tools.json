@@ -3,12 +3,57 @@
         {
             "name": "Visual Studio Code",
             "cmd": "choco install vscode -y",
-            "refreshEnv": true,
-            "sleep": 5
+            "enabled": true
         },
         {
-            "name": "vscode Binary Viewer",
-            "cmd": "code --install-extension qiaojie.binary-viewer -y"
+            "name": "Android Studio",
+            "cmd": "choco install androidstudio -y",
+            "enabled": true
+        },
+        {
+            "name": "Visual Studio Community 2022",
+            "cmd": "choco install visualstudio2022community --package-parameters \"--includeRecommendedWorkloads true --includeOptionalWorkloads true\" -y",
+            "enabled": true
+        },
+        {
+            "name": "Chrome",
+            "cmd": "choco install googlechrome -y",
+            "enabled": true
+        },
+        {
+            "name": "Brave",
+            "cmd": "choco install brave",
+            "enabled": true
+        },
+        {
+            "name": "Insomnia",
+            "cmd": "choco install insomnia-rest-api-client -y",
+            "enabled": true
+        },
+        {
+            "name": "MQTT Explorer",
+            "cmd": "choco install mqtt-explorer -y",
+            "enabled": true
+        },
+        {
+            "name": "Slack",
+            "cmd": "choco install slack -y",
+            "enabled": true
+        },
+        {
+            "name": "MinGW",
+            "cmd": "choco install mingw -y",
+            "enabled": true
+        },
+        {
+            "name": "NodeJS",
+            "cmd": "choco install nodejs -y",
+            "enabled": true
+        },
+        {
+            "name": "Flutter",
+            "cmd": "choco install flutter -y",
+            "enabled": true
         }
     ]
 }
