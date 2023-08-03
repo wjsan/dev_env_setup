@@ -1,0 +1,12 @@
+{
+    "tools": [
+        {
+            "name": "Visual Studio Code",
+            "cmd": "choco install vscode"
+        },
+        {
+            "name": "vscode Binary Viewer",
+            "cmd": "code --install-extension qiaojie.binary-viewer"
+        }
+    ]
+}
