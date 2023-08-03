@@ -15,3 +15,5 @@ echo Installing Dev Tools...
 python install.py
 
 pause
+
+cmd /k
