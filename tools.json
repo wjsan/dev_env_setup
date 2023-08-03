@@ -11,18 +11,28 @@
             "enabled": true
         },
         {
-            "name": "Visual Studio Community 2022",
-            "cmd": "choco install visualstudio2022community --package-parameters \"--includeRecommendedWorkloads true --includeOptionalWorkloads true\" -y",
+            "name": "Android SDK",
+            "cmd": "choco install android-sdk -y",
             "enabled": true
         },
         {
-            "name": "Chrome",
-            "cmd": "choco install googlechrome -y",
+            "name": "Visual Studio Community 2022",
+            "cmd": "choco install visualstudio2022community -y",
+            "enabled": true
+        },
+        {
+            "name": "Visual Studio Community 2022 - .NET for Desktop Workload",
+            "cmd": "choco install visualstudio2022-workload-manageddesktop -y",
+            "enabled": true
+        },
+        {
+            "name": "Visual Studio Community 2022 - C++ for Desktop Workload",
+            "cmd": "choco install visualstudio2022-workload-nativedesktop -y",
             "enabled": true
         },
         {
             "name": "Brave",
-            "cmd": "choco install brave",
+            "cmd": "choco install brave -y",
             "enabled": true
         },
         {
@@ -41,8 +51,23 @@
             "enabled": true
         },
         {
+            "name": "Git",
+            "cmd": "choco install git -y",
+            "enabled": true
+        },
+        {
             "name": "MinGW",
             "cmd": "choco install mingw -y",
+            "enabled": true
+        },
+        {
+            "name": "CMake",
+            "cmd": "choco install cmake -y",
+            "enabled": true
+        },
+        {
+            "name": "GNU Arm Embedded Toolchain",
+            "cmd": "choco install gcc-arm-embedded -y",
             "enabled": true
         },
         {
@@ -53,6 +78,21 @@
         {
             "name": "Flutter",
             "cmd": "choco install flutter -y",
+            "enabled": true
+        },
+        {
+            "name": "Rust",
+            "cmd": "choco install rust -y",
+            "enabled": true
+        },
+        {
+            "name": "ESP IDF",
+            "cmd": "choco install esp-idf-tools -y",
+            "enabled": true
+        },
+        {
+            "name": "Bitwarden",
+            "cmd": "choco install bitwarden -y",
             "enabled": true
         }
     ]
