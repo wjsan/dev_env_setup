@@ -56,11 +56,6 @@
             "enabled": true
         },
         {
-            "name": "Git Config",
-            "cmd": "refreshenv; git config --global --add safe.directory '*'",
-            "enabled": true
-        },
-        {
             "name": "GitHub Desktop",
             "cmd": "choco install github-desktop -y",
             "enabled": true
