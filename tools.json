@@ -11,11 +11,6 @@
             "enabled": true
         },
         {
-            "name": "Android SDK",
-            "cmd": "choco install android-sdk -y",
-            "enabled": true
-        },
-        {
             "name": "Visual Studio Community 2022",
             "cmd": "choco install visualstudio2022community -y",
             "enabled": true
@@ -36,6 +31,11 @@
             "enabled": true
         },
         {
+            "name": "Chrome",
+            "cmd": "choco install googlechrome -y",
+            "enabled": true
+        },
+        {
             "name": "Insomnia",
             "cmd": "choco install insomnia-rest-api-client -y",
             "enabled": true
@@ -53,6 +53,11 @@
         {
             "name": "Git",
             "cmd": "choco install git -y",
+            "enabled": true
+        },
+        {
+            "name": "GitHub Desktop",
+            "cmd": "choco install github-desktop -y",
             "enabled": true
         },
         {
@@ -86,13 +91,13 @@
             "enabled": true
         },
         {
-            "name": "ESP IDF",
-            "cmd": "choco install esp-idf-tools -y",
+            "name": "Bitwarden",
+            "cmd": "choco install bitwarden -y",
             "enabled": true
         },
         {
-            "name": "Bitwarden",
-            "cmd": "choco install bitwarden -y",
+            "name": "7-Zip",
+            "cmd": "choco install 7zip -y",
             "enabled": true
         }
     ]
