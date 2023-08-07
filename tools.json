@@ -56,6 +56,11 @@
             "enabled": true
         },
         {
+            "name": "Git Config",
+            "cmd": "refreshenv; git config --global --add safe.directory '*'",
+            "enabled": true
+        },
+        {
             "name": "GitHub Desktop",
             "cmd": "choco install github-desktop -y",
             "enabled": true
@@ -63,6 +68,11 @@
         {
             "name": "MinGW",
             "cmd": "choco install mingw -y",
+            "enabled": true
+        },
+        {
+            "name": "Make",
+            "cmd": "choco install make",
             "enabled": true
         },
         {
