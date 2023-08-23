@@ -131,6 +131,11 @@
             "enabled": true
         },
         {
+            "name": "Advanced IP Scanner",
+            "cmd": "choco install advanced-ip-scanner -y",
+            "enabled": true
+        },
+        {
             "name": "nRF Command Line Tools",
             "cmd": "choco install nrfjprog -y",
             "enabled": true
