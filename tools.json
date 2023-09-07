@@ -2,11 +2,158 @@
     "tools": [
         {
             "name": "Visual Studio Code",
-            "cmd": "choco install vscode"
+            "cmd": "choco install vscode -y",
+            "enabled": true
         },
         {
-            "name": "vscode Binary Viewer",
-            "cmd": "code --install-extension qiaojie.binary-viewer"
+            "name": "Android Studio",
+            "cmd": "choco install androidstudio -y",
+            "enabled": true
+        },
+        {
+            "name": "Visual Studio Community 2022",
+            "cmd": "choco install visualstudio2022community -y",
+            "enabled": true
+        },
+        {
+            "name": "Visual Studio Community 2022 - .NET for Desktop Workload",
+            "cmd": "choco install visualstudio2022-workload-manageddesktop -y",
+            "enabled": true
+        },
+        {
+            "name": "Visual Studio Community 2022 - C++ for Desktop Workload",
+            "cmd": "choco install visualstudio2022-workload-nativedesktop -y",
+            "enabled": true
+        },
+        {
+            "name": "WiX Toolset",
+            "cmd": "choco install wixtoolset -y",
+            "enabled": true
+        },
+        {
+            "name": "Brave",
+            "cmd": "choco install brave -y",
+            "enabled": true
+        },
+        {
+            "name": "Chrome",
+            "cmd": "choco install googlechrome -y",
+            "enabled": true
+        },
+        {
+            "name": "Insomnia",
+            "cmd": "choco install insomnia-rest-api-client -y",
+            "enabled": true
+        },
+        {
+            "name": "MQTT Explorer",
+            "cmd": "choco install mqtt-explorer -y",
+            "enabled": true
+        },
+        {
+            "name": "Slack",
+            "cmd": "choco install slack -y",
+            "enabled": true
+        },
+        {
+            "name": "Notion",
+            "cmd": "choco install notion -y",
+            "enabled": true
+        },
+        {
+            "name": "Git",
+            "cmd": "choco install git -y",
+            "enabled": true
+        },
+        {
+            "name": "GitHub Desktop",
+            "cmd": "choco install github-desktop -y",
+            "enabled": true
+        },
+        {
+            "name": "LLVM",
+            "cmd": "choco install llvm -y",
+            "enabled": true
+        },
+        {
+            "name": "MinGW",
+            "cmd": "choco install mingw -y",
+            "enabled": true
+        },
+        {
+            "name": "Make",
+            "cmd": "choco install make",
+            "enabled": true
+        },
+        {
+            "name": "CMake",
+            "cmd": "choco install cmake -y",
+            "enabled": true
+        },
+        {
+            "name": "GNU Arm Embedded Toolchain",
+            "cmd": "choco install gcc-arm-embedded -y",
+            "enabled": true
+        },
+        {
+            "name": "NodeJS",
+            "cmd": "choco install nodejs -y",
+            "enabled": true
+        },
+        {
+            "name": "Flutter",
+            "cmd": "choco install flutter -y",
+            "enabled": true
+        },
+        {
+            "name": "Rust",
+            "cmd": "choco install rust -y",
+            "enabled": true
+        },
+        {
+            "name": "AWS Command Line Interface v2",
+            "cmd": "choco install awscli -y",
+            "enabled": true
+        },
+        {
+            "name": "Docker",
+            "cmd": "choco install docker-desktop -y",
+            "enabled": true
+        },
+        {
+            "name": "Docker Compose",
+            "cmd": "choco install docker-compose -y",
+            "enabled": true
+        },
+        {
+            "name": "Bitwarden",
+            "cmd": "choco install bitwarden -y",
+            "enabled": true
+        },
+        {
+            "name": "7-Zip",
+            "cmd": "choco install 7zip -y",
+            "enabled": true
+        },
+        {
+            "name": "WSL",
+            "cmd": "wsl --install",
+            "enabled": true
+        },
+        {
+            "name": "Advanced IP Scanner",
+            "cmd": "choco install advanced-ip-scanner -y",
+            "enabled": true
+        },
+        {
+            "name": "nRF Command Line Tools",
+            "cmd": "choco install nrfjprog -y",
+            "enabled": true
+        },
+        {
+            "name": "nRF Connect",
+            "cmd": "choco install nrf-connect --pre -y",
+            "enabled": true
         }
     ]
 }
