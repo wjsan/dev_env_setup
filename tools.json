@@ -154,6 +154,16 @@
             "name": "nRF Connect",
             "cmd": "choco install nrf-connect --pre -y",
             "enabled": true
+        },
+        {
+            "name": "MySQL (Community Server)",
+            "cmd": "choco install mysql -y",
+            "enabled": true
+        },
+        {
+            "name": "MySQL Workbench",
+            "cmd": "choco install mysql.workbench -y",
+            "enabled": true
         }
     ]
 }
