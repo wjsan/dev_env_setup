@@ -164,6 +164,16 @@
             "name": "MySQL Workbench",
             "cmd": "choco install mysql.workbench -y",
             "enabled": true
+        },
+        {
+            "name": "Notepad++",
+            "cmd": "choco install notepadplusplus -y",
+            "enabled": true
+        },
+        {
+            "name": "DBeaver",
+            "cmd": "choco install dbeaver -y",
+            "enabled": true
         }
     ]
 }
