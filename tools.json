@@ -181,8 +181,13 @@
             "enabled": true
         },
         {
-            "name": "PostgreSQL 16.0.0",
+            "name": "PostgreSQL",
             "cmd": "choco install postgresql -y",
+            "enabled": true
+        },
+        {
+            "name": "FlatBuffers",
+            "cmd": "choco install flatc",
             "enabled": true
         }
     ]
