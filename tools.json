@@ -186,8 +186,18 @@
             "enabled": true
         },
         {
+            "name": "Protobuf",
+            "cmd": "choco install protoc -y",
+            "enabled": true
+        },
+        {
             "name": "FlatBuffers",
-            "cmd": "choco install flatc",
+            "cmd": "choco install flatc -y",
+            "enabled": true
+        },
+        {
+            "name": "LightShot",
+            "cmd": "choco install lightshot - y",
             "enabled": true
         }
     ]
