@@ -43,6 +43,11 @@
         {
             "name": "Insomnia",
             "cmd": "choco install insomnia-rest-api-client -y",
+            "enabled": false
+        },
+        {
+            "name": "Postman",
+            "cmd": "choco install postman -y",
             "enabled": true
         },
         {
@@ -198,6 +203,11 @@
         {
             "name": "LightShot",
             "cmd": "choco install lightshot - y",
+            "enabled": true
+        },
+        {
+            "name": "FortiClient VPN",
+            "cmd": "choco install forticlientvpn - y",
             "enabled": true
         }
     ]
