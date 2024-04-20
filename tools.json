@@ -33,7 +33,7 @@
         {
             "name": "Brave",
             "cmd": "choco install brave -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Chrome",
@@ -43,7 +43,7 @@
         {
             "name": "Insomnia",
             "cmd": "choco install insomnia-rest-api-client -y",
-            "enabled": false
+            "enabled": true
         },
         {
             "name": "Postman",
@@ -58,12 +58,12 @@
         {
             "name": "Slack",
             "cmd": "choco install slack -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Notion",
             "cmd": "choco install notion -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Git",
@@ -168,7 +168,7 @@
         {
             "name": "MySQL Workbench",
             "cmd": "choco install mysql.workbench -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Notepad++",
@@ -202,12 +202,12 @@
         },
         {
             "name": "LightShot",
-            "cmd": "choco install lightshot - y",
+            "cmd": "choco install lightshot -y",
             "enabled": true
         },
         {
             "name": "FortiClient VPN",
-            "cmd": "choco install forticlientvpn - y",
+            "cmd": "choco install forticlientvpn -y",
             "enabled": true
         }
     ]
