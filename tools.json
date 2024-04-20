@@ -33,7 +33,7 @@
         {
             "name": "Brave",
             "cmd": "choco install brave -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Chrome",
@@ -46,6 +46,11 @@
             "enabled": true
         },
         {
+            "name": "Postman",
+            "cmd": "choco install postman -y",
+            "enabled": true
+        },
+        {
             "name": "MQTT Explorer",
             "cmd": "choco install mqtt-explorer -y",
             "enabled": true
@@ -53,12 +58,12 @@
         {
             "name": "Slack",
             "cmd": "choco install slack -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Notion",
             "cmd": "choco install notion -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Git",
@@ -156,6 +161,16 @@
             "enabled": true
         },
         {
+            "name": "MySQL (Community Server)",
+            "cmd": "choco install mysql -y",
+            "enabled": true
+        },
+        {
+            "name": "MySQL Workbench",
+            "cmd": "choco install mysql.workbench -y",
+            "enabled": false
+        },
+        {
             "name": "Notepad++",
             "cmd": "choco install notepadplusplus -y",
             "enabled": true
@@ -163,6 +178,36 @@
         {
             "name": "DBeaver",
             "cmd": "choco install dbeaver -y",
+            "enabled": true
+        },
+        {
+            "name": "Nuget.CommandLine",
+            "cmd": "choco install nuget.commandline -y",
+            "enabled": true
+        },
+        {
+            "name": "PostgreSQL",
+            "cmd": "choco install postgresql -y",
+            "enabled": true
+        },
+        {
+            "name": "Protobuf",
+            "cmd": "choco install protoc -y",
+            "enabled": true
+        },
+        {
+            "name": "FlatBuffers",
+            "cmd": "choco install flatc -y",
+            "enabled": true
+        },
+        {
+            "name": "LightShot",
+            "cmd": "choco install lightshot -y",
+            "enabled": true
+        },
+        {
+            "name": "FortiClient VPN",
+            "cmd": "choco install forticlientvpn -y",
             "enabled": true
         }
     ]
