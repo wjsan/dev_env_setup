@@ -209,6 +209,16 @@
             "name": "FortiClient VPN",
             "cmd": "choco install forticlientvpn -y",
             "enabled": true
+        },
+        {
+            "name": "Microsoft Teams (new client)",
+            "cmd": "choco install microsoft-teams-new-bootstrapper -y",
+            "enabled": true
+        },
+        {
+            "name": "Google Drive",
+            "cmd": "choco install googledrive -y",
+            "enabled": true
         }
     ]
 }
