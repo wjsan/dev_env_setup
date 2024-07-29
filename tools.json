@@ -87,7 +87,7 @@
         },
         {
             "name": "Make",
-            "cmd": "choco install make",
+            "cmd": "choco install make -y",
             "enabled": true
         },
         {
@@ -218,6 +218,16 @@
         {
             "name": "Google Drive",
             "cmd": "choco install googledrive -y",
+            "enabled": true
+        },
+        {
+            "name": "LibreOffice Still",
+            "cmd": "choco install libreoffice-still -y",
+            "enabled": false
+        },
+        {
+            "name": "pkgconfiglite",
+            "cmd": "choco install pkgconfiglite -y",
             "enabled": true
         }
     ]
