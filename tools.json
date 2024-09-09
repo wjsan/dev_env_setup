@@ -108,6 +108,11 @@
         {
             "name": "Flutter",
             "cmd": "choco install flutter -y",
+            "enabled": false
+        },
+        {
+            "name": "Adding Flutter as a save directory",
+            "cmd": "git config --global --add safe.directory C:/tools/flutter",
             "enabled": true
         },
         {
