@@ -87,7 +87,7 @@
         },
         {
             "name": "Make",
-            "cmd": "choco install make",
+            "cmd": "choco install make -y",
             "enabled": true
         },
         {
@@ -108,6 +108,11 @@
         {
             "name": "Flutter",
             "cmd": "choco install flutter -y",
+            "enabled": false
+        },
+        {
+            "name": "Adding Flutter as a save directory",
+            "cmd": "git config --global --add safe.directory C:/tools/flutter",
             "enabled": true
         },
         {
@@ -208,6 +213,26 @@
         {
             "name": "FortiClient VPN",
             "cmd": "choco install forticlientvpn -y",
+            "enabled": true
+        },
+        {
+            "name": "Microsoft Teams (new client)",
+            "cmd": "choco install microsoft-teams-new-bootstrapper -y",
+            "enabled": true
+        },
+        {
+            "name": "Google Drive",
+            "cmd": "choco install googledrive -y",
+            "enabled": true
+        },
+        {
+            "name": "LibreOffice Still",
+            "cmd": "choco install libreoffice-still -y",
+            "enabled": false
+        },
+        {
+            "name": "pkgconfiglite",
+            "cmd": "choco install pkgconfiglite -y",
             "enabled": true
         }
     ]
