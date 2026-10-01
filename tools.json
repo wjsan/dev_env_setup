@@ -28,7 +28,7 @@
         {
             "name": "WiX Toolset",
             "cmd": "choco install wixtoolset -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Brave",
@@ -43,17 +43,17 @@
         {
             "name": "Insomnia",
             "cmd": "choco install insomnia-rest-api-client -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Postman",
             "cmd": "choco install postman -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "MQTT Explorer",
             "cmd": "choco install mqtt-explorer -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Slack",
@@ -108,7 +108,7 @@
         {
             "name": "Flutter",
             "cmd": "choco install flutter -y",
-            "enabled": false
+            "enabled": true
         },
         {
             "name": "Adding Flutter as a save directory",
@@ -168,7 +168,7 @@
         {
             "name": "MySQL (Community Server)",
             "cmd": "choco install mysql -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "MySQL Workbench",
@@ -193,7 +193,7 @@
         {
             "name": "PostgreSQL",
             "cmd": "choco install postgresql -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Protobuf",
@@ -203,22 +203,22 @@
         {
             "name": "FlatBuffers",
             "cmd": "choco install flatc -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "LightShot",
             "cmd": "choco install lightshot -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "FortiClient VPN",
             "cmd": "choco install forticlientvpn -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Microsoft Teams (new client)",
             "cmd": "choco install microsoft-teams-new-bootstrapper -y",
-            "enabled": true
+            "enabled": false
         },
         {
             "name": "Google Drive",
@@ -233,6 +233,16 @@
         {
             "name": "pkgconfiglite",
             "cmd": "choco install pkgconfiglite -y",
+            "enabled": true
+        },
+        {
+            "name": "GitHub CLI",
+            "cmd": "choco install gh -y",
+            "enabled": true
+        },
+        {
+            "name": "Bruno API",
+            "cmd": "choco install bruno -y",
             "enabled": true
         }
     ]
